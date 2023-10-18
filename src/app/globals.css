@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.element {
+    width: 100%;
+    /* max-width: 902px; */
+    height: 0;
+    padding-top: 49.66%; /* 493 / 902 * 100 to maintain aspect ratio */
+    position: relative;
+    background: url('../assets/g1.png') 50% 50% / cover no-repeat;
+    border-radius: 30px;
+    background-position: center center;
+}
