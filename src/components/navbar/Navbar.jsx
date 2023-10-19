@@ -52,10 +52,10 @@ const Navbar = () => {
             <div className='flex items-center gap-4 md:flex'>
                 <BiSearch size={24} className='' />
                 <MdDarkMode size={34} className='' />
-                <div onClick={() => setMenuOpen(!isMenuOpen)} className='md:hidden flex flex-col gap-3'>
-                    <div className={`w-6 h-1 bg-gray-800 my-1 ${isMenuOpen ? 'transform rotate-45' : ''}`}></div>
-                    <div className={`w-6 h-1 bg-gray-800 my-1 ${isMenuOpen ? 'opacity-0' : ''}`}></div>
-                    <div className={`w-6 h-1 bg-gray-800 my-1 ${isMenuOpen ? 'transform -rotate-45' : ''}`}></div>
+                <div onClick={() => setMenuOpen(!isMenuOpen)} className='md:hidden flex flex-col gap-1'>
+                   <div className='h-1 w-2 bg-slate-400'></div>
+                   <div className='h-1 w-2 bg-slate-400'></div>
+                   <div className='h-1 w-2 bg-slate-400'></div>
                 </div>
             </div>
         </div>

@@ -11,7 +11,7 @@ const Banner = () => {
     <div>
         <Image src={left1}  className='rounded-[20px] h-1/2'/>
     </div>
-        
+         
     </div>
   
   )

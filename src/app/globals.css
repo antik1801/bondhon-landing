@@ -12,3 +12,15 @@
     border-radius: 30px;
     background-position: center center;
 }
+
+.shady{
+    background: url('../assets/g1.png') linear-gradient(0deg, #070A1F 0%, rgba(33, 40, 104, 0.00) 78.9%);
+    
+}
+
+@media only screen and (min-width: 768px){
+    .inner-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
